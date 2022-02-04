@@ -71,7 +71,7 @@ Attendees will be required to install software on the workstations that they are
 7. Execute the following from the `LabDeployment\deploy` directory of the hack repository clone to deploy the environment (this process may take 10-15 minutes):
 
     ```powershell
-    CD .\LabDeployment\deploy
+    CD .\AzureAnalyticsOH\setup\LabDeployment\deploy
      .\deployAll.ps1 -
     ```
 
