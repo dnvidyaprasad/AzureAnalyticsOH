@@ -64,12 +64,14 @@ Attendees will be required to install software on the workstations that they are
 6. Instal GIT for windows. If you have not already done so, fork this repository into your own git handle and use the following command to clone the repo to the current directory on local computer:
 
    ```shell
+   CD <local drive location to clone the code>
    git clone https://github.com/<your git handle>/AzureAnalyticsOH.git
    ```
    
 7. Execute the following from the `LabDeployment\deploy` directory of the hack repository clone to deploy the environment (this process may take 10-15 minutes):
 
     ```powershell
+    CD .\LabDeployment\deploy
      .\deployAll.ps1 -
     ```
 
