@@ -61,7 +61,7 @@ Attendees will be required to install software on the workstations that they are
     Select-AzSubscription -Subscription <The selected Subscription Id>
     ```
 
-6. If you have not already done so, fork this repository into your own git handle and use the following command to clone the repo to the current directory on local computer:
+6. Instal GIT for windows. If you have not already done so, fork this repository into your own git handle and use the following command to clone the repo to the current directory on local computer:
 
    ```shell
    git clone https://github.com/<your git handle>/AzureAnalyticsOH.git
